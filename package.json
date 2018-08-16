@@ -1,0 +1,29 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A compatibility-based \"FriendFinder\" application. This full-stack site takes in results from  users' surveys, then compares their answers with those from other users. The app then displays the name and picture of the user with the best overall match.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderjdee/FriendFinder.git"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "Alex Dee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderjdee/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/alexanderjdee/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
